@@ -8,8 +8,9 @@ Over and over again i see very huge opinionated or very massive boiler plates an
 This _boilerplate_ dose not force the users to use a certain architecture but sets the user in a position where he or she can build their own architecture while still have a _boilerpalte_ that lets the write code right away, and add more modules as needed.
 
 # Getting started
-1. `$ git clone git@github.com:Nopzen/simple-react-jest-webpack.git`
-2. `$ npm install && npm start`
+1. [Download the zip](https://github.com/Nopzen/simple-react-jest-webpack/archive/master.zip)
+2. Unzip the file.
+3. `$ npm install && npm start`
 
 # Running Tests
 Test are all being run from the `__test__` folder, this is configurable if need be in the `jest` key from `package.json`, how to make your own jest config see [Jest Config Guide](https://facebook.github.io/jest/docs/configuration.html)
