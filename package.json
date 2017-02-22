@@ -6,9 +6,10 @@
   "license": "ISC",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "test:dev": "jest --watch",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "jest && webpack -p"
   },
   "jest": {
     "verbose": true,
