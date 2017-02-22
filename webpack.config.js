@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+require('dotenv').config();
 
 module.exports = {
   context: path.resolve(__dirname, './src'),
@@ -17,7 +18,8 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, './src'),
-    port: 3000,
+    host: process.env.DEV_SERVER_HOST || 'localhost',
+    port: process.env.DEV_SERVER_PORT || 3000,
     lazy: true
   },
   module: {
