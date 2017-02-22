@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 require('dotenv').config();
 
 module.exports = {
@@ -14,7 +15,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: '[name].bundle.js',
-    publicPath: '/assets',
   },
   devServer: {
     contentBase: path.resolve(__dirname, './src'),
@@ -33,4 +33,15 @@ module.exports = {
       }
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/index.html'),
+      hash: false,
+      filename: 'index.html',
+      inject: 'body',
+      minify: {
+        collapseWhitespace: true
+      }
+    })
+  ]
 };
