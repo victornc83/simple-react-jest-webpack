@@ -9,4 +9,4 @@ describe('Welcome', () => {
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
-})
+});
