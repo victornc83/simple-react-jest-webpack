@@ -1,7 +1,9 @@
 {
-  "name": "egarona",
-  "version": "1.0.0",
-  "description": "",
+  "name": "simple-react-jest-webpack",
+  "version": "0.0.1",
+  "author": "Lars Krieger",
+  "description": "Simple Webpack dev server, running react and tests with jest",
+  "license": "ISC",
   "main": "webpack.config.js",
   "scripts": {
     "test": "jest",
@@ -11,8 +13,6 @@
   "jest": {
     "verbose": true
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-core": "^6.23.1",
