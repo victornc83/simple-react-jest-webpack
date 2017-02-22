@@ -28,5 +28,5 @@ This boilerplate is still in early development, and can be subject to major chan
 ### Todo's
 - [x] Add .env for setting up `devServer.host` & `devServer.port` with fallbacks to `localhost`& `3000`
 - [ ] Make the `webpack.config.js` more modular
-- [ ] Make better npm scripts
-- [ ] Create a `build` command
+- [x] Make better npm scripts
+- [x] Create a `build` command
