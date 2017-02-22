@@ -6,6 +6,9 @@ A simple react + jest + webpack setup.
 2. `npm install && npm start"
 
 # Running Tests
+Test are all being run from the `__test__` folder, this is configurable if need be in the `jest` key from `package.json`, how to make your own jest config see [Jest Config Guide](https://facebook.github.io/jest/docs/configuration.html)
+
+**To Run**
 1. `$ npm run test` - Runs the tests once.
 2. `$ npm run test:dev` - Runs the tests and watching if the are being updated.
 
