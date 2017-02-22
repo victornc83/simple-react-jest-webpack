@@ -24,9 +24,3 @@ After clone its possible to utilize your own `HOST`and `PORT` for the dev server
 
 # Disclamer
 This boilerplate is still in early development, and can be subject to major changes. When the boilerplate is in a state where i feel like this is a nice starting point it will get tagged with version 1.0.0 and that will be expected stable, before this the documentation might be lagging and might even have a few bugs but should be runnable
-
-### Todo's
-- [x] Add .env for setting up `devServer.host` & `devServer.port` with fallbacks to `localhost`& `3000`
-- [ ] Make the `webpack.config.js` more modular
-- [x] Make better npm scripts
-- [x] Create a `build` command
