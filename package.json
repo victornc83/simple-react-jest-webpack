@@ -1,9 +1,9 @@
 {
   "name": "simple-react-jest-webpack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Lars Krieger",
   "description": "Simple Webpack dev server, running react and tests with jest",
-  "license": "ISC",
+  "license": "MIT",
   "main": "webpack.config.js",
   "scripts": {
     "test": "jest",
