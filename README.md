@@ -1,6 +1,6 @@
 # simple-react-jest-webpack
 
-The idea behind this _boilerplate_ is to be easy going writing `React` components with **ES2015** syntax. If you want to know abit mroe about why i made this heres a [link to my blog post](http://medium.com) where i explain why i made this.
+The idea behind this _boilerplate_ is to be easy going writing `React` components with **ES2015** syntax. If you want to know abit mroe about why i made this heres a [link to my blog post](https://medium.com/@Nopziiemoo/another-webpack-boilerplate-light-130137604aad#.osa1toant) where i explain why i made this.
 
 # What do you get
 1. Easy setup to running a simple front dev enviroment with npm (or yarn if you fancy).
