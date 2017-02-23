@@ -1,6 +1,6 @@
 # simple-react-jest-webpack
 
-The idea behind this _boilerplate_ is to be easy going writing `React` components with **ES2015** syntax. If you want to know abit mroe about why i made this heres a [link to my blog post](https://medium.com/@Nopziiemoo/another-webpack-boilerplate-light-130137604aad#.osa1toant) where i explain why i made this.
+The idea behind this _boilerplate_ is to be easy going writing `React` components with **ES2015** syntax. If you want to know abit more about why i made this heres a [link to my blog post](https://medium.com/@Nopziiemoo/another-webpack-boilerplate-light-130137604aad#.osa1toant) where i explain why i made this.
 
 # What do you get
 1. Easy setup to running a simple front dev enviroment with npm (or yarn if you fancy).
@@ -24,6 +24,3 @@ Test are all being run from the `__test__` folder, this is configurable if need 
 
 ### Optional (running another devserver host / port)
 After clone its possible to utilize your own `HOST`and `PORT` for the dev server, simply run `mv .example.env .env` after this open the `.env` file and fill out the variables `DEV_SERVER_HOST` and `DEV_SERVER_PORT`
-
-# Disclamer
-This boilerplate is still in early development, and can be subject to major changes. When the boilerplate is in a state where i feel like this is a nice starting point it will get tagged with version 1.0.0 and that will be expected stable, before this the documentation might be lagging and might even have a few bugs but should be runnable
