@@ -1,6 +1,6 @@
 # simple-react-jest-webpack
 
-The idea behind this _boilerplate_ is to be easy going writing `React` components with **ES2015** syntax. If you want to know abit more about why i made this heres a [link to my blog post](https://medium.com/@Nopziiemoo/another-webpack-boilerplate-light-130137604aad#.osa1toant) where i explain why i made this.
+The idea behind this _boilerplate_ is to be easy going writing `React` components with **ES2015** syntax.
 
 # What do you get
 1. Easy setup to running a simple front dev enviroment with npm (or yarn if you fancy).
@@ -11,8 +11,8 @@ The idea behind this _boilerplate_ is to be easy going writing `React` component
 
 
 # Getting started
-1. [Download the zip](https://github.com/Nopzen/simple-react-jest-webpack/archive/master.zip)
-2. Unzip the file.
+1. `$ git clone https://github.com/victornc83/simple-react-jest-webpack.git`
+2. `S cd simple-react-jest-webpack`
 3. `$ npm install && npm start`
 
 # Running Tests
